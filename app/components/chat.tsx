@@ -251,7 +251,7 @@ const Chat = ({
   return (
     <div className={styles.chatContainer}>
       <div className={styles.messages}>
-        <Message key={-1} role={"assistant"} text={"의료기기 검색 봇이에요.\n 어디가 불편하신가요?"} />
+        <Message key={-1} role={"assistant"} text={"안녕하세요, 저는 의료기기 검색 봇 메디바이스MeDevice에요.\n 불편한 증상을 말씀해주세요."} />
         {messages.map((msg, index) => (
           <Message key={index} role={msg.role} text={msg.text} />
         ))} 
@@ -266,7 +266,7 @@ const Chat = ({
           className={styles.input}
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
-          placeholder="보드봇에게 질문하세요!"
+          placeholder="메디바이스에게 질문하세요!"
         />
         <button
           type="submit"
