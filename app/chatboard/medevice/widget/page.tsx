@@ -4,7 +4,7 @@ import React from "react";
 import styles from "../../page.module.css";
 import Chat from "../../../components/chat";
 
-const Home = () => {
+const Widget = () => {
   return (
     <main className={styles.main}>
       <div className={styles.chat}>
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Widget;

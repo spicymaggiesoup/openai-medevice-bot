@@ -5,8 +5,8 @@ import { assistantId } from "./assistant-config";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Assistants for nUBoard",
-  description: "OpenAI Assistant를 적용한 nUBoard(nUDR)매뉴얼입니다.",
+  title: "Support Your Health",
+  description: "OpenAI Assistant를 적용한 ME-Device 서비스입니다.",
   icons: {
     icon: "/logo_img.png",
   },

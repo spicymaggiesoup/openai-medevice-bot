@@ -251,7 +251,7 @@ const Chat = ({
   return (
     <div className={styles.chatContainer}>
       <div className={styles.messages}>
-        <Message key={-1} role={"assistant"} text={"안녕하세요? 저는 보드봇이에요.\n 무엇이 궁금하세요?"} />
+        <Message key={-1} role={"assistant"} text={"의료기기 검색 봇이에요.\n 어디가 불편하신가요?"} />
         {messages.map((msg, index) => (
           <Message key={index} role={msg.role} text={msg.text} />
         ))} 

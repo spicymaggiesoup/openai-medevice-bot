@@ -16,14 +16,19 @@ const Home = () => {
     <main className={styles.main}>
       <div className={styles.titles}>
         <div className={styles.title}>
-          안녕하세요? 저는 보드봇이에요.<br/>
+          안녕하세요? 저는 미디바이스 Me-Device에요.<br/>
         </div>
         <div className={styles.subtitle}>
-          친절하게 설명드릴게요 :)
+          지금 불편한 증상을 저에게 설명해주세요 :)
         </div>
       </div>
-      <div className={styles.container}>        
+      <div className={styles.container}>
         <a
+          key={"시작하기"}
+          className={styles.category} href={`/chatboard/medevice`}>
+          {"시작하기"}
+        </a>
+        {/* <a
           key={"nUBoard 질문봇"}
           className={styles.category} href={`/dashboard/nuboard`}>
           {"nUBoard 질문하기"}
@@ -32,7 +37,7 @@ const Home = () => {
           key={"nUDR 질문봇"}
           className={styles.category} href={`/dashboard/nudr`}>
           {"nUDR 질문하기"}
-        </a>
+        </a> */}
       </div>
     </main>
   );
